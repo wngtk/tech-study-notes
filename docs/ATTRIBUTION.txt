@@ -1,0 +1,29 @@
+Attribution for the static course-library site shell
+
+The HTML/CSS/JS course library reader and site shell come from the
+lecture-to-notes project:
+
+  https://github.com/ysyecust/lecture-to-notes
+  License: GNU GPL v3. The included LICENSE file is the upstream
+  license document; the complete GPL-3.0 text is at
+  https://www.gnu.org/licenses/gpl-3.0.txt
+
+Bundled PDF.js (pdfjs-dist) and its third-party components already
+include their license and attribution files in the static site at:
+
+  assets/vendor/pdfjs/LICENSE
+  assets/vendor/pdfjs/package.json
+  assets/vendor/pdfjs/cmaps/LICENSE
+  assets/vendor/pdfjs/standard_fonts/LICENSE_FOXIT
+  assets/vendor/pdfjs/standard_fonts/LICENSE_LIBERATION
+  assets/vendor/pdfjs/iccs/LICENSE
+  assets/vendor/pdfjs/wasm/LICENSE_JBIG2
+  assets/vendor/pdfjs/wasm/LICENSE_OPENJPEG
+  assets/vendor/pdfjs/wasm/LICENSE_QCMS
+  assets/vendor/pdfjs/wasm/LICENSE_PDFJS_JBIG2
+  assets/vendor/pdfjs/wasm/LICENSE_PDFJS_OPENJPEG
+  assets/vendor/pdfjs/wasm/LICENSE_PDFJS_QCMS
+
+This package does not relicense the FastAPI Beyond CRUD Chinese
+lecture-note PDFs or other course content. They remain the original
+study-note materials and are included only for publication as notes.
