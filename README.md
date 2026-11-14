@@ -6,6 +6,8 @@ The reader shell (HTML, CSS, and JavaScript) comes from [lecture-to-notes](https
 
 ## Clone and read locally
 
+After this pull request is merged, clone the default branch `main`:
+
 ```bash
 git clone https://github.com/wngtk/tech-study-notes.git
 cd tech-study-notes
@@ -14,29 +16,36 @@ python3 -m http.server 8000 --directory docs
 
 Open [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
 
-To serve the same files under the project subpath used by GitHub Pages:
+Before merge, the site is on the pull request branch. Preview that branch instead of `main`:
 
 ```bash
-git clone https://github.com/wngtk/tech-study-notes.git
-mkdir -p "$HOME/tony-notes-preview"
-ln -sfn "$(pwd)/tech-study-notes/docs" "$HOME/tony-notes-preview/tech-study-notes"
-python3 -m http.server 8000 --directory "$HOME/tony-notes-preview"
+git clone --branch cursor/tony-study-notes-site-ed47 https://github.com/wngtk/tech-study-notes.git
+cd tech-study-notes
+python3 -m http.server 8000 --directory docs
 ```
 
-Open [http://127.0.0.1:8000/tech-study-notes/](http://127.0.0.1:8000/tech-study-notes/).
+From whichever clone you just made, serve the same files under the project subpath GitHub Pages uses:
+
+```bash
+mkdir -p "$HOME/tony-notes-preview"
+ln -sfn "$(pwd)/docs" "$HOME/tony-notes-preview/tech-study-notes"
+python3 -m http.server 8001 --directory "$HOME/tony-notes-preview"
+```
+
+Open [http://127.0.0.1:8001/tech-study-notes/](http://127.0.0.1:8001/tech-study-notes/).
 
 Keep the server rooted at `docs/` (or at a directory whose `tech-study-notes` entry is `docs/`). Asset URLs are relative to the page, including `data/catalog.json`, `pdfs/`, `thumbnails/`, and `assets/vendor/pdfjs/`.
 
 ## GitHub Pages
 
-The site is the `docs/` folder on `main`, with `docs/.nojekyll` so Pages serves the files directly.
+`docs/.nojekyll` is present so Pages serves the files directly. A repository admin turns Pages on after `main` contains `docs/` (after this pull request is merged):
 
-After this branch is merged, the repository Pages source should be:
+1. Open [https://github.com/wngtk/tech-study-notes/settings/pages](https://github.com/wngtk/tech-study-notes/settings/pages).
+2. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
+3. Set the branch to `main` and the folder to `/docs`.
+4. Save.
 
-- Branch: `main`
-- Folder: `/docs`
-
-The project URL is [https://wngtk.github.io/tech-study-notes/](https://wngtk.github.io/tech-study-notes/).
+The published URL is [https://wngtk.github.io/tech-study-notes/](https://wngtk.github.io/tech-study-notes/).
 
 ## Licenses and attribution
 
