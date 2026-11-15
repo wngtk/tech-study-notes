@@ -1,0 +1,225 @@
+{
+  "id": "corey-schafer-fastapi-tutorials",
+  "title": "FastAPI Tutorials",
+  "institution": "Corey Schafer（YouTube）",
+  "description": "Corey Schafer 的 FastAPI Tutorials 系列中文笔记：从 Web 应用与 REST API 入门，到数据库、认证、测试与部署。",
+  "tags": [
+    "FastAPI",
+    "Python",
+    "REST API"
+  ],
+  "source_url": "https://www.youtube.com/playlist?list=PL-osiE80TeTsak-c-QsVeg0YYG_0TeyXI",
+  "featured": false,
+  "items": [
+    {
+      "file": "corey_schafer_fastapi_01_getting_started_zh.pdf",
+      "title": "第 1 集：入门：Web 应用与 REST API",
+      "order": 1,
+      "expected_pages": 23,
+      "duration_minutes": 24,
+      "instructor": "Corey Schafer",
+      "source_url": "https://www.youtube.com/watch?v=7AMjmCTumuo",
+      "source_label": "YouTube",
+      "meta": "Corey Schafer · 24min · 23页"
+    },
+    {
+      "file": "corey_schafer_fastapi_02_jinja2_templates_zh.pdf",
+      "title": "第 2 集：Jinja2 模板",
+      "order": 2,
+      "expected_pages": 21,
+      "duration_minutes": 37,
+      "instructor": "Corey Schafer",
+      "source_url": "https://www.youtube.com/watch?v=G4NIB9Rx9Qs",
+      "source_label": "YouTube",
+      "meta": "Corey Schafer · 37min · 21页"
+    },
+    {
+      "file": "corey_schafer_fastapi_03_path_parameters_zh.pdf",
+      "title": "第 3 集：路径参数：校验与错误处理",
+      "order": 3,
+      "expected_pages": 23,
+      "duration_minutes": 37,
+      "instructor": "Corey Schafer",
+      "source_url": "https://www.youtube.com/watch?v=WRjXIA5pMtk",
+      "source_label": "YouTube",
+      "meta": "Corey Schafer · 37min · 23页"
+    },
+    {
+      "file": "corey_schafer_fastapi_04_pydantic_schemas_zh.pdf",
+      "title": "第 4 集：Pydantic 数据模型",
+      "order": 4,
+      "expected_pages": 19,
+      "duration_minutes": 24,
+      "instructor": "Corey Schafer",
+      "source_url": "https://www.youtube.com/watch?v=9GHxnttXxrA",
+      "source_label": "YouTube",
+      "meta": "Corey Schafer · 24min · 19页"
+    },
+    {
+      "file": "corey_schafer_fastapi_05_sqlalchemy_models_zh.pdf",
+      "title": "第 5 集：SQLAlchemy 模型与关系",
+      "order": 5,
+      "expected_pages": 30,
+      "duration_minutes": 63,
+      "instructor": "Corey Schafer",
+      "source_url": "https://www.youtube.com/watch?v=NvOV3ig2tGY",
+      "source_label": "YouTube",
+      "meta": "Corey Schafer · 63min · 30页"
+    },
+    {
+      "file": "corey_schafer_fastapi_06_crud_update_delete_zh.pdf",
+      "title": "第 6 集：完成 CRUD：PUT、PATCH、DELETE",
+      "order": 6,
+      "expected_pages": 24,
+      "duration_minutes": 36,
+      "instructor": "Corey Schafer",
+      "source_url": "https://www.youtube.com/watch?v=VyoGAoxQhxM",
+      "source_label": "YouTube",
+      "meta": "Corey Schafer · 36min · 24页"
+    },
+    {
+      "file": "corey_schafer_fastapi_07_sync_vs_async_zh.pdf",
+      "title": "第 7 集：同步与异步",
+      "order": 7,
+      "expected_pages": 21,
+      "duration_minutes": 32,
+      "instructor": "Corey Schafer",
+      "source_url": "https://www.youtube.com/watch?v=2JPDt-Jp6fM",
+      "source_label": "YouTube",
+      "meta": "Corey Schafer · 32min · 21页"
+    },
+    {
+      "file": "corey_schafer_fastapi_08_api_routers_zh.pdf",
+      "title": "第 8 集：APIRouter 路由拆分",
+      "order": 8,
+      "expected_pages": 20,
+      "duration_minutes": 20,
+      "instructor": "Corey Schafer",
+      "source_url": "https://www.youtube.com/watch?v=NkgIHa6KtHg",
+      "source_label": "YouTube",
+      "meta": "Corey Schafer · 20min · 20页"
+    },
+    {
+      "file": "corey_schafer_fastapi_09_frontend_forms_zh.pdf",
+      "title": "第 9 集：前端表单与 JavaScript fetch",
+      "order": 9,
+      "expected_pages": 22,
+      "duration_minutes": 29,
+      "instructor": "Corey Schafer",
+      "source_url": "https://www.youtube.com/watch?v=vqjZOyT4QRs",
+      "source_label": "YouTube",
+      "meta": "Corey Schafer · 29min · 22页"
+    },
+    {
+      "file": "corey_schafer_fastapi_10_jwt_registration_login_zh.pdf",
+      "title": "第 10 集：JWT 认证：注册与登录",
+      "order": 10,
+      "expected_pages": 21,
+      "duration_minutes": 58,
+      "instructor": "Corey Schafer",
+      "source_url": "https://www.youtube.com/watch?v=Go4wYJJhR3k",
+      "source_label": "YouTube",
+      "meta": "Corey Schafer · 58min · 21页"
+    },
+    {
+      "file": "corey_schafer_fastapi_11_route_authorization_zh.pdf",
+      "title": "第 11 集：授权与路由保护",
+      "order": 11,
+      "expected_pages": 23,
+      "duration_minutes": 38,
+      "instructor": "Corey Schafer",
+      "source_url": "https://www.youtube.com/watch?v=MY0TFMMm9B0",
+      "source_label": "YouTube",
+      "meta": "Corey Schafer · 38min · 23页"
+    },
+    {
+      "file": "corey_schafer_fastapi_12_file_uploads_zh.pdf",
+      "title": "第 12 集：文件上传",
+      "order": 12,
+      "expected_pages": 21,
+      "duration_minutes": 35,
+      "instructor": "Corey Schafer",
+      "source_url": "https://www.youtube.com/watch?v=AExumWjfbyo",
+      "source_label": "YouTube",
+      "meta": "Corey Schafer · 35min · 21页"
+    },
+    {
+      "file": "corey_schafer_fastapi_13_pagination_zh.pdf",
+      "title": "第 13 集：分页",
+      "order": 13,
+      "expected_pages": 21,
+      "duration_minutes": 37,
+      "instructor": "Corey Schafer",
+      "source_url": "https://www.youtube.com/watch?v=f1zggIOxmJg",
+      "source_label": "YouTube",
+      "meta": "Corey Schafer · 37min · 21页"
+    },
+    {
+      "file": "corey_schafer_fastapi_14_password_reset_zh.pdf",
+      "title": "第 14 集：密码重置：邮件、令牌与后台任务",
+      "order": 14,
+      "expected_pages": 21,
+      "duration_minutes": 59,
+      "instructor": "Corey Schafer",
+      "source_url": "https://www.youtube.com/watch?v=4HxjBvZMAg8",
+      "source_label": "YouTube",
+      "meta": "Corey Schafer · 59min · 21页"
+    },
+    {
+      "file": "corey_schafer_fastapi_15_postgresql_alembic_zh.pdf",
+      "title": "第 15 集：PostgreSQL 与 Alembic",
+      "order": 15,
+      "expected_pages": 22,
+      "duration_minutes": 48,
+      "instructor": "Corey Schafer",
+      "source_url": "https://www.youtube.com/watch?v=e8NnDz8uT7o",
+      "source_label": "YouTube",
+      "meta": "Corey Schafer · 48min · 22页"
+    },
+    {
+      "file": "corey_schafer_fastapi_16_aws_s3_boto3_zh.pdf",
+      "title": "第 16 集：AWS S3 与 Boto3",
+      "order": 16,
+      "expected_pages": 22,
+      "duration_minutes": 48,
+      "instructor": "Corey Schafer",
+      "source_url": "https://www.youtube.com/watch?v=zCTJ3AdDym4",
+      "source_label": "YouTube",
+      "meta": "Corey Schafer · 48min · 22页"
+    },
+    {
+      "file": "corey_schafer_fastapi_17_pytest_testing_zh.pdf",
+      "title": "第 17 集：测试：Pytest、Fixture 与 Mock",
+      "order": 17,
+      "expected_pages": 27,
+      "duration_minutes": 82,
+      "instructor": "Corey Schafer",
+      "source_url": "https://www.youtube.com/watch?v=SO7m7nod0ts",
+      "source_label": "YouTube",
+      "meta": "Corey Schafer · 82min · 27页"
+    },
+    {
+      "file": "corey_schafer_fastapi_18_vps_deployment_zh.pdf",
+      "title": "第 18 集：VPS 部署：安全、Nginx、SSL 与域名",
+      "order": 18,
+      "expected_pages": 27,
+      "duration_minutes": 92,
+      "instructor": "Corey Schafer",
+      "source_url": "https://www.youtube.com/watch?v=wd1wt2d0eus",
+      "source_label": "YouTube",
+      "meta": "Corey Schafer · 92min · 27页"
+    },
+    {
+      "file": "corey_schafer_fastapi_19_docker_deployment_zh.pdf",
+      "title": "第 19 集：Docker 部署：Serverless 容器与自定义域名",
+      "order": 19,
+      "expected_pages": 25,
+      "duration_minutes": 79,
+      "instructor": "Corey Schafer",
+      "source_url": "https://www.youtube.com/watch?v=eqjngvKfabg",
+      "source_label": "YouTube",
+      "meta": "Corey Schafer · 79min · 25页"
+    }
+  ],
+  "term": ""
+}
