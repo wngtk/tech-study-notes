@@ -2,7 +2,7 @@
 
 Static study notes for [wngtk/tech-study-notes](https://github.com/wngtk/tech-study-notes). The site title is **Tony Study Notes**. Pages are served from the `docs/` directory so the same relative links work on a local Python web server and on the GitHub project site at `/tech-study-notes/`.
 
-The reader shell (HTML, CSS, and JavaScript) comes from [lecture-to-notes](https://github.com/ysyecust/lecture-to-notes). This repository publishes Ssali Jonathan’s FastAPI Beyond CRUD series (26 Chinese lecture PDFs, 777 pages) and Lauren Tan’s standalone talk “All Code Is Slop (Except Mine)” (1 PDF, 29 pages). The published catalogue is `docs/data/catalog.json`. Course records live under `content/courses/`.
+The reader shell (HTML, CSS, and JavaScript) comes from [lecture-to-notes](https://github.com/ysyecust/lecture-to-notes). This repository publishes Ssali Jonathan’s FastAPI Beyond CRUD series (26 Chinese lecture PDFs, 777 pages), Lauren Tan’s standalone talk “All Code Is Slop (Except Mine)” (1 PDF, 29 pages), and Corey Schafer’s FastAPI Tutorials (19 Chinese lecture PDFs, 433 pages). The published catalogue is `docs/data/catalog.json`. Course records live under `content/courses/`.
 
 ## Clone and read locally
 
@@ -16,10 +16,10 @@ python3 -m http.server 8000 --directory docs
 
 Open [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
 
-Before a pull request is merged, preview that branch instead of `main`. For the Lauren Tan talk:
+Before a pull request is merged, preview that branch instead of `main`. For the Corey Schafer course:
 
 ```bash
-git clone --branch cursor/lauren-tan-all-code-is-slop-ed47 https://github.com/wngtk/tech-study-notes.git
+git clone --branch cursor/corey-schafer-fastapi-tutorials-ed47 https://github.com/wngtk/tech-study-notes.git
 cd tech-study-notes
 python3 -m http.server 8000 --directory docs
 ```
@@ -74,6 +74,19 @@ The published URL is [https://wngtk.github.io/tech-study-notes/](https://wngtk.g
 | Video | https://youtu.be/O_zcc6Xl12g |
 
 The cover records the video length as 17 minutes 31 seconds and the publish time as 2026-11-15 02:30 Asia/Shanghai. The catalogue stores that length as 17 minutes and the term as 2026. It is a separate talk, not a FastAPI lecture and not a paper.
+
+## Corey Schafer FastAPI Tutorials
+
+| Field | Value |
+| --- | --- |
+| Catalogue id | `corey-schafer-fastapi-tutorials` |
+| Lectures | 19 |
+| Pages | 433 |
+| PDFs | `docs/pdfs/FastAPI教程_第01集_….pdf` through `FastAPI教程_第19集_….pdf` |
+| Source course record | `content/courses/corey-schafer-fastapi-tutorials/course.json` |
+| Playlist | https://www.youtube.com/playlist?list=PL-osiE80TeTsak-c-QsVeg0YYG_0TeyXI |
+
+This is a separate course from FastAPI Beyond CRUD. Lecture lengths in minutes are the playlist durations rounded to the nearest minute. No lecture date is recorded. The PDF filenames are the Chinese names from the course manifest, and the reader loads them with those names.
 
 ## Adding a course
 
