@@ -47,9 +47,30 @@
       ],
       "term": "2024",
       "title": "FastAPI Beyond CRUD"
+    },
+    {
+      "bundle_count": 0,
+      "description": "Lauren Tan 在 AI Engineer Code Summit 的演讲中文笔记：如何投资智能体环境，在加快交付的同时建立可验证的信任。主题是 AI 编程代理的可靠性与环境设计。",
+      "featured": false,
+      "id": "all-code-is-slop",
+      "institution": "Lauren Tan（YouTube）",
+      "item_count": 1,
+      "item_ids": [
+        "all-code-is-slop-1-42a0d48e"
+      ],
+      "lecture_count": 1,
+      "page_count": 29,
+      "source_url": "https://youtu.be/O_zcc6Xl12g",
+      "tags": [
+        "AI agents",
+        "reliability",
+        "environment"
+      ],
+      "term": "2026",
+      "title": "All Code Is Slop (Except Mine) — Lauren Tan"
     }
   ],
-  "generated_at": "2026-11-14T02:47:52Z",
+  "generated_at": "2026-11-15T07:20:00Z",
   "items": [
     {
       "bytes": 3644763,
@@ -570,15 +591,35 @@
       "thumbnail": "thumbnails/cdccb7e65a3eb40b.webp",
       "title": "第 26 讲：用 Uvicorn 与 Nginx 在 Linux 上部署",
       "title_source": "first_page"
+    },
+    {
+      "bytes": 2489195,
+      "course_id": "all-code-is-slop",
+      "detected_title": "所有代码都是 Slop（除了我的）",
+      "duration_minutes": 17,
+      "id": "all-code-is-slop-1-42a0d48e",
+      "instructor": "Lauren Tan",
+      "kind": "lecture",
+      "legacy_id": "",
+      "meta": "Lauren Tan · 17min · 29页",
+      "order": 1,
+      "pages": 29,
+      "pdf": "pdfs/all_code_is_slop_lauren_tan_zh.pdf",
+      "sha256": "42a0d48e5ff88495529ad586519694aa00e646b2679b5816dde885ee3c81aa43",
+      "source_label": "YouTube",
+      "source_url": "https://youtu.be/O_zcc6Xl12g",
+      "thumbnail": "thumbnails/42a0d48e5ff88495.webp",
+      "title": "All Code Is Slop (Except Mine) — Lauren Tan",
+      "title_source": "source"
     }
   ],
   "papers": [],
   "schema_version": 1,
   "stats": {
-    "course_count": 1,
-    "lecture_count": 26,
-    "page_count": 777,
+    "course_count": 2,
+    "lecture_count": 27,
+    "page_count": 806,
     "paper_count": 0,
-    "pdf_bytes": 139580078
+    "pdf_bytes": 142069273
   }
 }

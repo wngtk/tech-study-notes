@@ -1,0 +1,27 @@
+{
+  "id": "all-code-is-slop",
+  "title": "All Code Is Slop (Except Mine) — Lauren Tan",
+  "institution": "Lauren Tan（YouTube）",
+  "term": "2026",
+  "description": "Lauren Tan 在 AI Engineer Code Summit 的演讲中文笔记：如何投资智能体环境，在加快交付的同时建立可验证的信任。主题是 AI 编程代理的可靠性与环境设计。",
+  "tags": [
+    "AI agents",
+    "reliability",
+    "environment"
+  ],
+  "source_url": "https://youtu.be/O_zcc6Xl12g",
+  "featured": false,
+  "items": [
+    {
+      "file": "all_code_is_slop_lauren_tan_zh.pdf",
+      "title": "All Code Is Slop (Except Mine) — Lauren Tan",
+      "order": 1,
+      "expected_pages": 29,
+      "duration_minutes": 17,
+      "instructor": "Lauren Tan",
+      "source_url": "https://youtu.be/O_zcc6Xl12g",
+      "source_label": "YouTube",
+      "meta": "Lauren Tan · 17min · 29页"
+    }
+  ]
+}

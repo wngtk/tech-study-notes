@@ -2,7 +2,7 @@
 
 Static study notes for [wngtk/tech-study-notes](https://github.com/wngtk/tech-study-notes). The site title is **Tony Study Notes**. Pages are served from the `docs/` directory so the same relative links work on a local Python web server and on the GitHub project site at `/tech-study-notes/`.
 
-The reader shell (HTML, CSS, and JavaScript) comes from [lecture-to-notes](https://github.com/ysyecust/lecture-to-notes). This repository publishes one course: Ssali Jonathan’s FastAPI Beyond CRUD series, 26 Chinese lecture PDFs, 777 pages. The published catalogue is `docs/data/catalog.json`. The course record used to build that catalogue is `content/courses/fastapi-beyond-crud/course.json`.
+The reader shell (HTML, CSS, and JavaScript) comes from [lecture-to-notes](https://github.com/ysyecust/lecture-to-notes). This repository publishes Ssali Jonathan’s FastAPI Beyond CRUD series (26 Chinese lecture PDFs, 777 pages) and Lauren Tan’s standalone talk “All Code Is Slop (Except Mine)” (1 PDF, 29 pages). The published catalogue is `docs/data/catalog.json`. Course records live under `content/courses/`.
 
 ## Clone and read locally
 
@@ -16,10 +16,10 @@ python3 -m http.server 8000 --directory docs
 
 Open [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
 
-Before merge, the site is on the pull request branch. Preview that branch instead of `main`:
+Before a pull request is merged, preview that branch instead of `main`. For the Lauren Tan talk:
 
 ```bash
-git clone --branch cursor/tony-study-notes-site-ed47 https://github.com/wngtk/tech-study-notes.git
+git clone --branch cursor/lauren-tan-all-code-is-slop-ed47 https://github.com/wngtk/tech-study-notes.git
 cd tech-study-notes
 python3 -m http.server 8000 --directory docs
 ```
@@ -38,12 +38,7 @@ Keep the server rooted at `docs/` (or at a directory whose `tech-study-notes` en
 
 ## GitHub Pages
 
-`docs/.nojekyll` is present so Pages serves the files directly. A repository admin turns Pages on after `main` contains `docs/` (after this pull request is merged):
-
-1. Open [https://github.com/wngtk/tech-study-notes/settings/pages](https://github.com/wngtk/tech-study-notes/settings/pages).
-2. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
-3. Set the branch to `main` and the folder to `/docs`.
-4. Save.
+`docs/.nojekyll` is present so Pages serves the files directly. Pages is already set to branch `main`, folder `/docs`. A merged change on `main` is what the live site publishes.
 
 The published URL is [https://wngtk.github.io/tech-study-notes/](https://wngtk.github.io/tech-study-notes/).
 
@@ -65,6 +60,20 @@ The published URL is [https://wngtk.github.io/tech-study-notes/](https://wngtk.g
 | Thumbnails | `docs/thumbnails/*.webp`, one per lecture, named from the PDF SHA-256 prefix |
 | Source course record | `content/courses/fastapi-beyond-crud/course.json` |
 | Playlist | https://www.youtube.com/playlist?list=PLEt8Tae2spYnHy378vMlPH--87cfeh33P |
+
+## Current talk
+
+| Field | Value |
+| --- | --- |
+| Catalogue id | `all-code-is-slop` |
+| Lectures | 1 |
+| Pages | 29 |
+| PDF | `docs/pdfs/all_code_is_slop_lauren_tan_zh.pdf` |
+| Thumbnail | `docs/thumbnails/42a0d48e5ff88495.webp` |
+| Source course record | `content/courses/all-code-is-slop/course.json` |
+| Video | https://youtu.be/O_zcc6Xl12g |
+
+The cover records the video length as 17 minutes 31 seconds and the publish time as 2026-11-15 02:30 Asia/Shanghai. The catalogue stores that length as 17 minutes and the term as 2026. It is a separate talk, not a FastAPI lecture and not a paper.
 
 ## Adding a course
 
