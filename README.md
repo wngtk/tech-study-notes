@@ -82,11 +82,11 @@ The cover records the video length as 17 minutes 31 seconds and the publish time
 | Catalogue id | `corey-schafer-fastapi-tutorials` |
 | Lectures | 19 |
 | Pages | 433 |
-| PDFs | `docs/pdfs/FastAPI教程_第01集_….pdf` through `FastAPI教程_第19集_….pdf` |
+| PDFs | `docs/pdfs/corey_schafer_fastapi_01_getting_started_zh.pdf` through `corey_schafer_fastapi_19_docker_deployment_zh.pdf` |
 | Source course record | `content/courses/corey-schafer-fastapi-tutorials/course.json` |
 | Playlist | https://www.youtube.com/playlist?list=PL-osiE80TeTsak-c-QsVeg0YYG_0TeyXI |
 
-This is a separate course from FastAPI Beyond CRUD. Lecture lengths in minutes are the playlist durations rounded to the nearest minute. No lecture date is recorded. The PDF filenames are the Chinese names from the course manifest, and the reader loads them with those names.
+This is a separate course from FastAPI Beyond CRUD. Lecture lengths in minutes are the playlist durations rounded to the nearest minute. No lecture date is recorded. The PDF filenames are English; `_zh` marks the Chinese notes. The catalogue titles stay Chinese.
 
 ## Adding a course
 
